@@ -139,7 +139,7 @@ Incorporating stealth addresses increases the storage requirements minimally, wh
 
 # 4 Specifications
 
-## Technicalities
+## 4.1 Technicalities
 
 The proposed proof-of-work hashing algorithm is Ethash from Ethereum [10]. Reason being:
 
@@ -154,11 +154,11 @@ Reward-chain blocktime:
 
 We are reimplementing Nano's protocol in Elixir, opting for a higher level language like Elixir over C/C++ (what Nano is written in) because of development speed not performance reasons. The code clarity in Elixir allows us to incur much less technical debt, thereby decreasing development time. As we want a system that is capable of handling thousands of small processes simultaneously, concurrency is an important aspect to consider. Luckily, Elxir has been proven to be able to handle that level of traffic [11]. Moreover as Elixir ultilizes the BEAM (Erlang Virtual Machine), one thing it inherits is the ability for hot code reload, potentially allowing nodes to automatically update themselves without interrupting its execution.
 
-## Crowdfunding and Token Distribution
+## 4.2 Crowdfunding and Token Distribution
 
 There will be a total of `150_000_000` NYX in existence, 40% of which will be distributed during the ICO with a minimum of target of 2.5 million USD and a hardcap of 7.5 million USD. 10% of which will be reserved for future development hires, whilst 50% of which will be mined throughout its lifetime.
 
-## Crowdfunding Breakdown
+## 4.3 Crowdfunding Breakdown
 
 Min target: 2_500_000 USD
 
@@ -183,7 +183,7 @@ This brings the total expenditure to around 1.21 million USD / year. We believe 
 
 Should we receive funding beyond our minimum target, we will be hiring more engineers to help reduce development time, write documentation, and tools to help integrate Vanyx as a developer friendly alternative on par with Stripe. We'll also be hiring more community managers and country representative to help with the adoption of Vanyx as the digital payment solution of today and the future.
 
-## Proposed Timeline
+## 4.4 Proposed Timeline
 
 Q3/4 2018:
 
