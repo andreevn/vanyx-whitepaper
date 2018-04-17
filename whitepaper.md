@@ -156,43 +156,53 @@ We are reimplementing Nano's protocol in Elixir, opting for a higher level langu
 
 ## 4.2 Crowdfunding and Token Distribution
 
-There will be a total of `150_000_000` NYX in existence, 40% of which will be distributed during the ICO with a minimum of target of 2.5 million USD and a hardcap of 7.5 million USD. 10% of which will be reserved for future development hires, whilst 50% of which will be mined throughout its lifetime.
+There will be a total of `150_000_000` NYX in existence, 30% of which will be distributed during the ICO with a minimum of target of 3.76 million USD and a hardcap of 12.6 million USD. 10% of which will be reserved for future development hires, of which another 10% of which will be used to get exchange listings, whilst 50% of which will be mined throughout its lifetime.
+
+The ICO will be done on Ethereum as an ERC-20 token, and be merged back into Vanyx (via a snapshot) once the mainnet is released.
+
+The ICO will be held in 4 rounds:
+- 1st round: (private) 57k USD minimum, with a 20% bonus
+- 2nd round: 5k USD maximum, 10% bonus
+- 3rd round: 2.5k USD maximum, 5% bonus
+- 4th round: 1k USD maximum, no bonus
 
 ## 4.3 Crowdfunding Breakdown
 
-Min target: 2_500_000 USD
+Min target: 3_760_000 USD
 
 The table below depicts our ideal hiring positions:
 
 | Job Title | Salary Range (USD) | Position(s) | Approx Cost (USD / year) |
 | --- | ------------ | ------------- | -----------: |
 | Graphics Designer | 55k - 75k | 1 | 125k |
-| Community Manager | 55k - 75k | 1 | 125k |
+| Community Manager | 55k - 75k | 2 | 250k |
 | Software Engineer | 75k - 120k | ~10 | 1mil |
-|  |  | Total (approx) | 1.1 mil |
+|  |  | Total (approx) | 1.325 mil |
 
 Whereas the table below depicts the allocation for business expenditures for the entire team:
 
 | Expenditure | Allocation (USD / year) |
 | --- | -----------: |
-| Conferences | 50k |
-| Accomodation & travel | 60k |
-| Total | 110k |
+| Conferences | 53k |
+| Accomodation & travel | 63k |
+| Total | 116k |
 
-This brings the total expenditure to around 1.21 million USD / year. We believe this is reasonable as we are looking to build an engineering heavy team. The budget allows a minimum runway of 2 years to provide them with minimum job security and a decent salary in order to attract the best talent to enable us to build the best product. The graphics designer is to illustrate technical concepts in a easy to digest format (such as an infograph) for the general public. This will help to attract interest and grows the community.
+This brings the total expenditure to around 1.441 million USD / year. We believe this is reasonable as we are looking to build an engineering heavy team. The budget allows a minimum runway of 2 years to provide them with minimum job security and a decent salary in order to attract the best talent to enable us to build the best product. The graphics designer is to illustrate technical concepts in a easy to digest format (such as an infograph) for the general public. This will help to attract interest and grows the community. The rest of the funds is then used to cover legal fees.
 
 Should we receive funding beyond our minimum target, we will be hiring more engineers to help reduce development time, write documentation, and tools to help integrate Vanyx as a developer friendly alternative on par with Stripe. We'll also be hiring more community managers and country representative to help with the adoption of Vanyx as the digital payment solution of today and the future.
 
 ## 4.4 Proposed Timeline
 
-Q3/4 2018:
-
-- Team reveal
+Q2 2018
 - Initial whitepaper release
 - Functioning website
-- Online forum
+- Online forum / Reddit
 - Telegram group
-- Receive funding needed to start project
+
+Q3/4 2018:
+- PreFund round
+- ICO
+  - Do KYC
 
 Q1 2019:
 
@@ -201,7 +211,7 @@ Q1 2019:
     - Vanyx Core
     - SPV light wallet
     - Web-based block explorer
-    - CI/CD Server
+    - CI/CD DevOps server
     - Documentation
 
 Q1 2019 - Q4 2019:
@@ -239,15 +249,25 @@ We're confident that by using Elixir, the Vanyx project can progress swiftly and
 
 # 6 Team
 
-Kendrick Tan, Co-Founder:
+Kendrick Tan
 
 Kendrick was previously a member of the ZENCash foundation and who has written parts of the core tools and libraries for ZENCash. He has experience in blockchain protocol development, fullstack, machine learning and is passionate in functional programming. He is also a TechStar alumni.
 
-Nikita, ???:
+Nikita Andrews
 
 Nikita has over 8 years of online advertising experience. Prior to this, he ran his own performance advertising consultancy in Hong Kong. Previously, he worked for AdTech startups out of Toronto, San Franciso, New York, and London. B.A.Sc. Industrial Engineering (Operations Research), University of Toronto.
 
-???
+Josh Ma
+
+Josh has consulted as a software engineer on client engagements at IBM Canada for over 2 years and has been a crypto enthusiast/developer since early 2016. Currently completing his law degree, Josh obtained a B.A.Sc. in Mechanical Engineering at the University of Toronto.
+
+Desiree Vogt-Lee
+
+Desiree is currently studying physics at UQ and is passionate in quantum computing. In her day job, she is currently working in the field of data and machine learning.
+
+Adrian Li
+
+Adrian is a technical consultant and developer that has worked for several Y-Combinator and Techstars companies. He has years of experience in engineering full stack solutions and strategies for high velocity startups. In his spare time, Adrian enjoys participating in the open-source community.
 
 # References
 
