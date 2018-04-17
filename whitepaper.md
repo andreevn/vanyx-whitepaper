@@ -33,8 +33,8 @@ Currently in Nano, it is not possible to provide any sort of incentive as this r
 ## 2.3 Lack of Anonymity
 According to T. Okamoto and K. Ohta, an ideal cryptocurrency has to keep anonymity of their users in mind. In particular "relationship between the user and his purchases must be untraceable by anyone” [9]. The Monero project also outlines two properties that an anonymous cryptocurrency model must satisfy to comply with the above requirements [8]:
 
-Untraceability: for each incoming transaction, all possible senders are equiprobable.
-Unlinkability: for any two outgoing transactions, it is impossible to prove they were sent to the same person
+- Untraceability: for each incoming transaction, all possible senders are equiprobable.
+- Unlinkability: for any two outgoing transactions, it is impossible to prove they were sent to the same person
 
 As both Nano and Bitcoin share a similar interface, where balances are sent to a public address and a private key is used to sign the transactions with no obscuring. The research done on the privacy and anonymity of Bitcoin transactions can be assumed to be true in Nano. Like Bitcoin, Nano satisfies neither requirements.
 
@@ -125,7 +125,7 @@ The reward-chain not only acts as an incentive to motivate participants to prote
 
 ## 3.2 Stealth Addresses
 
-To achieve a satisfactory level of anonymity, Vanyx will build on the Diffie–Hellman key exchange technique described in CryptoNote, commonly referred to as 'Stealth Addresses'. Stealth addresses protect the recipients anonminity by generating a new public key for each transaction. That way all a user needs to do is publish a single public address to achieve unlinkable payments. This design solves the 'address reuse' issue and makes it incredibly tough for any observer to determine if two addresses are linked together.
+To achieve a satisfactory level of anonymity, Vanyx will build on the Diffie–Hellman key exchange technique described in CryptoNote, commonly referred to as 'Stealth Addresses'. Stealth addresses protect the recipients anonymity by generating a new public key for each transaction. That way all a user needs to do is publish a single public address to achieve unlinkable payments. This design solves the 'address reuse' issue and makes it incredibly tough for any observer to determine if two addresses are linked together.
 
 The following depicts a traditional transation, note how each public key must be associated with a private key:
 
